@@ -25,22 +25,22 @@
                     <div class="row">
                         <div class="col-5">
                             <div class="form-group mb-3">
-                                <label for="card1">Card #</label>
-                                <input type="text" class="form-control" id="card1" placeholder="XXXXXXXXXXXXXXXXX" required>
+                                <label for="card_number">Card #</label>
+                                <input type="text" class="form-control" name="card_number" placeholder="XXXXXXXXXXXXXXXXX" required>
                                 <div class="invalid-feedback">Please insert card number</div>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="form-group mb-3">
-                                <label for="cvc1">CVC #</label>
-                                <input type="number" class="form-control" id="cvc1" placeholder="0000" required>
+                                <label for="cvc">CVC #</label>
+                                <input type="text" class="form-control" name="cvc" placeholder="000" maxlength="3" required>
                             </div>
                         </div>
                         <div class="col-4">
-                            <label for="amount1">Amount $</label>
+                            <label for="amount">Amount $</label>
                             <div class="d-flex">
                                 <i class="fa-solid fa-dollar-sign mr-1"></i>
-                                <input type="text" class="form-control" id="amount1" placeholder="Amount" required>
+                                <input type="text" class="form-control" id="amount" placeholder="Amount" required>
                             </div>
                         </div>
                     </div>
@@ -49,13 +49,13 @@
                         <div class="col-6">
                             <div class="form-group mb-3">
                                 <label for="firstName1">First Name</label>
-                                <input type="text" class="form-control" id="firstName1" required>
+                                <input type="text" class="form-control" name="firstName1" required>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-group mb-3">
                                 <label for="lastName1">Last Name</label>
-                                <input type="text" class="form-control" id="lastName1" required>
+                                <input type="text" class="form-control" name="lastName1" required>
                             </div>
                         </div>
                     </div>
@@ -63,8 +63,8 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="form-group mb-3">
-                                <label for="city1">City</label>
-                                <input type="text" class="form-control" id="city1" required>
+                                <label for="city_name">City</label>
+                                <input type="text" class="form-control" name="city_name" required>
                             </div>
                         </div>
                         <div class="col-3">
@@ -81,8 +81,8 @@
                         </div>
                         <div class="col-3">
                             <div class="form-group mb-3">
-                                <label for="postalCode1">Postal Code</label>
-                                <input type="text" class="form-control" id="postalCode1" required>
+                                <label for="postal_Code">Postal Code</label>
+                                <input type="text" class="form-control" name="postal_Code" required>
                             </div> 
                         </div>
                     </div>
